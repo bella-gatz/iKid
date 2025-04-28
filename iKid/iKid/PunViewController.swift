@@ -31,9 +31,13 @@ class PunViewController: UIViewController {
     
     @IBAction func next(_ sender: Any) {
         if punchline.text == "Why did the bicycle fall over?" {
-            punchline.text = "Because it was two tired"
+            UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+                self.punchline.text = "Because it was two tired"
+            }, completion: nil)
         } else {
-            punchline.text = "Why did the bicycle fall over?"
+            UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+                self.punchline.text = "Why did the bicycle fall over?"
+            }, completion: nil)
         }
     }
 }

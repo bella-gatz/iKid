@@ -31,9 +31,13 @@ class GoodViewController: UIViewController {
     
     @IBAction func next(_ sender: Any) {
         if punchline.text == "What is a ghosts favorite fruit?" {
-            punchline.text = "A BOOberry"
+            UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+                self.punchline.text = "A BOOberry"
+            }, completion: nil)
         } else {
-            punchline.text = "What is a ghosts favorite fruit?"
+            UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+                self.punchline.text = "What is a ghosts favorite fruit?"
+            }, completion: nil)
         }
     }
     

@@ -51,7 +51,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvn-oy-gKc">
-                                <rect key="frame" x="157.66666666666666" y="452.66666666666669" width="60" height="35"/>
+                                <rect key="frame" x="300" y="659.66666666666663" width="60" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Next"/>
                                 <connections>
@@ -63,9 +63,9 @@
                         <viewLayoutGuide key="safeArea" id="BLl-se-dMz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Tvn-oy-gKc" firstAttribute="top" secondItem="CA0-k5-vk0" secondAttribute="bottom" constant="29" id="3UB-bl-DHI"/>
                             <constraint firstItem="CA0-k5-vk0" firstAttribute="centerX" secondItem="6PI-Ln-vOS" secondAttribute="centerX" id="DBF-6Z-IHQ"/>
-                            <constraint firstItem="Tvn-oy-gKc" firstAttribute="centerX" secondItem="6PI-Ln-vOS" secondAttribute="centerX" id="M8p-8W-5ws"/>
+                            <constraint firstItem="Tvn-oy-gKc" firstAttribute="leading" secondItem="BLl-se-dMz" secondAttribute="leading" constant="300" id="Jvk-pp-5AM"/>
+                            <constraint firstItem="Tvn-oy-gKc" firstAttribute="top" secondItem="CA0-k5-vk0" secondAttribute="bottom" constant="236" id="NkC-c1-4vf"/>
                             <constraint firstItem="Tvn-oy-gKc" firstAttribute="height" secondItem="CA0-k5-vk0" secondAttribute="height" id="PCv-z1-kV7"/>
                             <constraint firstItem="CA0-k5-vk0" firstAttribute="centerY" secondItem="6PI-Ln-vOS" secondAttribute="centerY" id="eu7-9g-bka"/>
                         </constraints>
@@ -94,7 +94,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6E9-FY-c5S">
-                                <rect key="frame" x="157.66666666666666" y="452.66666666666669" width="60" height="35"/>
+                                <rect key="frame" x="300" y="659.66666666666663" width="60" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Next"/>
                                 <connections>
@@ -107,11 +107,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bum-c8-IAu" firstAttribute="centerY" secondItem="fSE-cP-KgD" secondAttribute="centerY" id="1nI-o4-sQu"/>
-                            <constraint firstItem="6E9-FY-c5S" firstAttribute="top" secondItem="bum-c8-IAu" secondAttribute="bottom" constant="29" id="FUp-fD-GM0"/>
+                            <constraint firstItem="6E9-FY-c5S" firstAttribute="leading" secondItem="bfV-o4-6dt" secondAttribute="leading" constant="300" id="LVP-tW-Oen"/>
                             <constraint firstItem="bum-c8-IAu" firstAttribute="centerX" secondItem="fSE-cP-KgD" secondAttribute="centerX" id="RiQ-l4-tHW"/>
-                            <constraint firstItem="6E9-FY-c5S" firstAttribute="centerX" secondItem="fSE-cP-KgD" secondAttribute="centerX" id="Ylc-5y-W6A"/>
-                            <constraint firstItem="6E9-FY-c5S" firstAttribute="top" secondItem="bum-c8-IAu" secondAttribute="bottom" constant="29" id="jjE-zO-h55"/>
                             <constraint firstItem="6E9-FY-c5S" firstAttribute="height" secondItem="bum-c8-IAu" secondAttribute="height" id="n7C-OR-qFf"/>
+                            <constraint firstItem="6E9-FY-c5S" firstAttribute="top" secondItem="bum-c8-IAu" secondAttribute="bottom" constant="236" id="zwK-oN-F9I"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad" image="figure.and.child.holdinghands" catalog="system" id="bKL-FD-jy4"/>
@@ -138,7 +137,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftb-c5-ijZ">
-                                <rect key="frame" x="157.66666666666666" y="452.66666666666669" width="60" height="35"/>
+                                <rect key="frame" x="300" y="659.66666666666663" width="60" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Next"/>
                                 <connections>
@@ -151,11 +150,11 @@
                         <viewLayoutGuide key="safeArea" id="cOI-MN-VMM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ftb-c5-ijZ" firstAttribute="top" secondItem="Wkp-mK-ZBq" secondAttribute="bottom" constant="29" id="0Cg-zH-lol"/>
                             <constraint firstItem="Wkp-mK-ZBq" firstAttribute="centerX" secondItem="V6d-gB-h08" secondAttribute="centerX" id="1js-4f-zPP"/>
                             <constraint firstItem="ftb-c5-ijZ" firstAttribute="height" secondItem="Wkp-mK-ZBq" secondAttribute="height" id="DAd-1M-5J0"/>
+                            <constraint firstItem="ftb-c5-ijZ" firstAttribute="top" secondItem="Wkp-mK-ZBq" secondAttribute="bottom" constant="236" id="ThJ-bS-kik"/>
+                            <constraint firstItem="ftb-c5-ijZ" firstAttribute="leading" secondItem="cOI-MN-VMM" secondAttribute="leading" constant="300" id="b97-e4-kVU"/>
                             <constraint firstItem="Wkp-mK-ZBq" firstAttribute="centerY" secondItem="V6d-gB-h08" secondAttribute="centerY" id="kgj-Gx-MI6"/>
-                            <constraint firstItem="ftb-c5-ijZ" firstAttribute="centerX" secondItem="V6d-gB-h08" secondAttribute="centerX" id="ocJ-4M-a2v"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Good" image="exclamationmark.3" catalog="system" id="faW-OE-34Y"/>
