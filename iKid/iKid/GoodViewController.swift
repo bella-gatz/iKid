@@ -30,13 +30,25 @@ class GoodViewController: UIViewController {
     
     
     @IBAction func next(_ sender: Any) {
-        if punchline.text == "What is a ghosts favorite fruit?" {
+        if punchline.text == "Knock knock" {
             UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
-                self.punchline.text = "A BOOberry"
+                self.punchline.text = "Who's there?"
+            }, completion: nil)
+        } else if punchline.text == "Who's there?" {
+            UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+                self.punchline.text = "Ghost"
+            }, completion: nil)
+        } else if punchline.text == "Ghost" {
+            UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+                self.punchline.text = "Ghost Who?"
+            }, completion: nil)
+        } else if punchline.text == "Ghost Who?" {
+            UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
+                self.punchline.text = "Ghost goes boo!"
             }, completion: nil)
         } else {
             UIView.transition(with: punchline, duration: 0.5, options: .transitionFlipFromLeft, animations: {
-                self.punchline.text = "What is a ghosts favorite fruit?"
+                self.punchline.text = "Knock knock"
             }, completion: nil)
         }
     }
